@@ -68,3 +68,44 @@
   opacity: 0.6;
   line-height: 1.6;
 }
+/* SERVICES PAGE */
+.services {
+  min-height: 100vh;
+  padding: 160px 8vw;
+}
+
+.services-title {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 800;
+  margin-bottom: 80px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+.service-card {
+  padding: 40px;
+  border-radius: 24px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: all 0.4s ease;
+}
+
+.service-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  opacity: 0.6;
+  line-height: 1.6;
+}
+
+/* Apple-like hover */
+.service-card:hover {
+  transform: translateY(-12px);
+  background: rgba(255,255,255,0.06);
+}
