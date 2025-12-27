@@ -28,3 +28,21 @@ gsap.from(".scroll-hint", {
   opacity: 0,
   delay: 1.8
 });
+gsap.from(".ph-title", {
+  y: 120,
+  opacity: 0,
+  duration: 1.2,
+  ease: "power4.out"
+});
+
+gsap.from(".ph-highlight", {
+  y: 80,
+  opacity: 0,
+  delay: 0.4
+});
+
+gsap.from(".ph-text", {
+  y: 40,
+  opacity: 0,
+  delay: 0.8
+});
