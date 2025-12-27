@@ -46,3 +46,17 @@ gsap.from(".ph-text", {
   opacity: 0,
   delay: 0.8
 });
+gsap.from(".services-title", {
+  y: 80,
+  opacity: 0,
+  duration: 1,
+  ease: "power4.out"
+});
+
+gsap.from(".service-card", {
+  y: 60,
+  opacity: 0,
+  duration: 1,
+  stagger: 0.2,
+  delay: 0.4
+});
