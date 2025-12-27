@@ -1,0 +1,40 @@
+.hero-title {
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.hero-title span {
+  background: linear-gradient(90deg, #ffffff, #9b9b9b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta {
+  padding: 16px 42px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.cta.primary {
+  background: white;
+  color: black;
+  border: none;
+}
+
+.cta.primary:hover {
+  transform: scale(1.08);
+}
+
+.cta.ghost {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.cta.ghost:hover {
+  background: white;
+  color: black;
+}
