@@ -38,3 +38,33 @@
   background: white;
   color: black;
 }
+/* PHILOSOPHY PAGE */
+.philosophy {
+  height: 100vh;
+  padding: 0 8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ph-title {
+  font-size: clamp(3rem, 7vw, 6rem);
+  font-weight: 800;
+  line-height: 1.05;
+  opacity: 0.9;
+}
+
+.ph-highlight {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  margin-top: 20px;
+  background: linear-gradient(90deg, #ffffff, #777);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ph-text {
+  margin-top: 40px;
+  max-width: 420px;
+  opacity: 0.6;
+  line-height: 1.6;
+}
